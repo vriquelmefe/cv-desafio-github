@@ -1,10 +1,18 @@
 body {
   font-family: "Raleway", sans-serif;
-  background-color: cadetblue;
+  background-color: rgb(125, 211, 214);
+}
+
+.boton-header{
+  background-color:  #8c28dc;
+
+  &:hover{
+    background-color:  #ca94eb ;
+  }
 }
 
 .imagen-logo{
-  height: 15vh;
+  height: 10vh;
 }
 
 /* Hero Section */
@@ -15,6 +23,9 @@ body {
   background-size:auto;
 
 }
+h1{
+  text-shadow: rgba(105, 106, 108, 0.694) 0.1em 0.1em 0.08em
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -22,6 +33,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position:top;
+}
+.trabajos{
+  background-color: #8c28dc;
+}
+.btn-outline-ver-mas{
+  border:1px solid #8c28dc;
+  color: #8c28dc;
+  &:hover{
+    background-color: #ca94eb;
+    color: ;
+  }
 }
 
 /* Contacto */
