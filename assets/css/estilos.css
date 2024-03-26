@@ -3,6 +3,10 @@ body {
   background-color: cadetblue;
 }
 
+.imagen-logo{
+  height: 15vh;
+}
+
 /* Hero Section */
 
 #Hero-Section {
@@ -11,14 +15,13 @@ body {
   background-size:auto;
 
 }
-
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position:top;
 }
 
 /* Contacto */
